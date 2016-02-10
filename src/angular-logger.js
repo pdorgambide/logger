@@ -69,6 +69,5 @@ var window = typeof window === 'undefined' ? this : window;
             $log.warn('moment.js not found: http://momentjs.com, using simple Date format');
         }
         logEnhancer.enhanceAngularLog($log);
-		$log.info('logging enhancer initiated');
     }]);
 }(window.loggingEnhancer, window.angular, window.sprintf, window.moment));
